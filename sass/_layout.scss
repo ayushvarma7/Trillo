@@ -39,6 +39,7 @@ flex: 1;
 }
 
 .detail{
+font-size: 1.4rem;
 display: flex;
 padding: 4.5rem;
 background-color: var(--color-grey-light-1);
@@ -46,7 +47,6 @@ border-bottom: var(--line);
 }
 
 .description{
-font-size: 1.4rem;
 background-color: #fff;
 padding: 3rem;
 flex: 0 0 60%; //occupy 60% of the space
@@ -54,7 +54,9 @@ margin-right: 4.5rem;
 box-shadow: var(--shadow-light);
 }
 
-.user-reviews{
-background-color: greenyellow;
+.user-reviews{  
 flex: 1; //occupy the remaining space
+display: flex;
+flex-direction: column;
+align-items: center;
 }
